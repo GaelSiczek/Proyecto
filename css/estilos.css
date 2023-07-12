@@ -124,11 +124,14 @@ header nav ul{
     font-size: 1.5em;
     margin: 0.1em;
 }
-
+.row{
+    width: 100%;
+}
 main{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     background-image: url(wallpaperbetter.com_3840x2160.jpg);
     background-size: contain;
+    width: 100%;
     /*en el background le puse una imagen para que quede mejor y lo puse en contain para contener la imagen y que sea visible*/
 }
 
@@ -168,6 +171,7 @@ main img{
     width: 250px;
 }
 footer{
+width: 100%;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
@@ -283,6 +287,7 @@ margin-bottom: 50px;
     height:30px;
     font-family:Arial, Helvetica, sans-serif;
 }
+
 .iconobuscar{
     width: 20px;
 }
@@ -295,7 +300,7 @@ margin-bottom: 50px;
     text-align: center;
 }
 .contactofooter{
-    width: px;
+
     margin-top: 10px;
     margin-left: 10px;
     margin-bottom: 20px;
@@ -303,7 +308,7 @@ margin-bottom: 50px;
 }
 
 .redessociales{
-    width: 800px;
+
     margin-top: 10px;
     margin-right: 8%;
     margin-left: 10%;
@@ -312,11 +317,28 @@ margin-bottom: 50px;
 }
 
 .mediosdepago{
-    width: 300px;
     text-align: center;
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 20px;
+}
+@media screen and (min-width:0px) and (max-width: 768px){
+    .imgsck{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 300px;
+    }
+    header nav ul{
+        flex-direction: column;
+    }
+    .header{
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-between;
+    }
+
 }
 
 
