@@ -14,7 +14,7 @@ margin: 0;
 box-sizing: border-box;
 }
 body{
-    background-color: gray;
+    background-color: rgb(124, 124, 124);
     margin:0 auto;
     padding: 0 auto;
 }
@@ -31,6 +31,9 @@ header nav ul{
     margin: 0;
     padding: 0;
 }
+.col-md-6 .col-md-3{
+    margin: 0%;
+}
 .productosbuzos{
     padding: 50px;
     display: flex;
@@ -44,6 +47,7 @@ header nav ul{
     margin-top: 30px;
 }
 .productosropa{
+    width: 400px;
     text-align: center;
     margin-bottom: 50px;
     box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
@@ -230,7 +234,6 @@ p{
 }
 .icono{
     margin: 0px;
-    width: auto;
     background-image: url(wallpaperbetter.com_3840x2160.jpg);
 }
 
@@ -324,25 +327,58 @@ margin-bottom: 50px;
 }
 @media screen and (min-width:0px) and (max-width: 768px){
     .imgsck{
-        margin-left: 20%;
-        margin-right: 20%;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        width: 300px;
+        width: 250px;
+        align-items: center;
     }
+
     header nav ul{
+        margin-top: 1px;
+        width: 100%;
+        display: flex;
         flex-direction: column;
     }
+
     header nav ul li{
-        border-radius: 25px;
+        border-radius: 35px;
         box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
     }
-    .header{
+
+    .icono{
+        margin-bottom: 10px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .iconodiv{
+        margin-bottom: 1px;
+        text-align: center;
+        width: 300px;
+    }
+
+    .col-sm-12{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .row{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .buscar{
+        margin-top: 5px;
+    }
+
+    .header {
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
     .productosdestacados{
         display: flex;
         flex-direction: column;
@@ -358,39 +394,80 @@ margin-bottom: 50px;
         width: 350px;
         margin-bottom: 40px;
     }
-    .footer{
-        display: flex;
-        flex-direction: column;
-    }
+
     .contactofooter{
         margin-bottom: 50px;
     }
+
+
     .redessociales{
         margin-bottom: 50px;
     }
+
     h4{
     color: rgb(255, 255, 255);
     }
+
     .mediosdepago{
         margin-bottom: 50px;
         padding: 10px 10px 10px 10px;
     }
+
     .productospantalones{
         display: flex;
         flex-direction: column;
-        width: 100%px;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
     }
+
+    .pantalones{
+        width: 300px
+    }
+
+    .pantalones:hover{
+        width: 350px;
+        transition: 1s ease;
+    }
+
     h1{
         font-size: 50px;
     }
-    h2{
-        font-size: 30px;
+
+    .subtitulo{
+        font-size: 40px;
+        color: rgb(107, 107, 107);
     }
 
+    .productosropa{
+        width: 300px;
+    }
+
+    .productosbuzos{
+        padding: 50px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .productosropa:hover{
+        width: 350px;
+        height: 450px;
+        box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+        cursor: pointer;
+    }
+
+    .ropa{
+        width: 300px;
+    }
+
+    .ropa:hover{
+        width: 350px;
+        height: 450px;
+    }
 }
-
-
-
 
 
 
