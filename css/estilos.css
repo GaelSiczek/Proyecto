@@ -333,10 +333,58 @@ margin-bottom: 50px;
     header nav ul{
         flex-direction: column;
     }
+    header nav ul li{
+        border-radius: 25px;
+        box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+    }
     .header{
+        display: flex;
         flex-direction: column;
-        align-items:center;
-        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+    }
+    .productosdestacados{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ofertasropa{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .buscar{
+        justify-content: center;
+        width: 350px;
+        margin-bottom: 40px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .contactofooter{
+        margin-bottom: 50px;
+    }
+    .redessociales{
+        margin-bottom: 50px;
+    }
+    h4{
+    color: rgb(255, 255, 255);
+    }
+    .mediosdepago{
+        margin-bottom: 50px;
+        padding: 10px 10px 10px 10px;
+    }
+    .productospantalones{
+        display: flex;
+        flex-direction: column;
+        width: 100%px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 30px;
     }
 
 }
