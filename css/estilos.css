@@ -100,8 +100,8 @@ header nav ul{
 .ropa:hover{
     height: 500px;
     width: 400px;
+    transition: 1s ease;
     box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
-    transition: 1s;
     cursor: pointer;
 }
 .pantalones{
@@ -466,6 +466,34 @@ margin-bottom: 50px;
     .ropa:hover{
         width: 350px;
         height: 450px;
+    }
+    .locales{
+        display: flex;
+        flex-direction: column;
+    }
+    .contactofooter{
+        margin-top: 20px;
+    }
+    .hcontacto{
+        margin-bottom: 5px;
+    }
+    .contacto12{
+        font-size: 1rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .contactop{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 1rem;
+        color: rgb(137, 138, 139);
+    }
+    .subtitulo{
+        margin-top: 10px;
+    }
+    .informacion li{
+        font-size: 1rem;
+    }
+    .sobrenosotros ul{
+        width: 90%;
     }
 }
 
